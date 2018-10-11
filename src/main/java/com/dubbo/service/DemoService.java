@@ -1,9 +1,11 @@
 package com.dubbo.service;
 
-import com.dubbo.entity.User;
+import com.dubbo.entity.UserEntity;
 
 public interface DemoService {
 	
-	User sayHello(User user);
+	UserEntity sayHello(UserEntity user);
+	
+	UserEntity getUser();
 
 }
